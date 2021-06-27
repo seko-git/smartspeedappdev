@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="SmartSpeedApp.exe" version="0.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="SmartSpeedApp.exe" version="0.0.0.0" publicKeyToken="cd299c1c74d4a433" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="Resources\SekoIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -115,14 +115,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartSpeedApp.exe" size="547328">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartSpeedApp.exe" size="548296">
       <assemblyIdentity name="SmartSpeedApp" version="0.0.1.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>b3tYaSh5/r3hUn3Pc/VvR+4nkNIa+wqOdmr8u8Y0sDU=</dsig:DigestValue>
+        <dsig:DigestValue>1dp0O1eCt3R0mWSWPrS0jkvP+UexYQIt4Q1drjkGI1A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -156,4 +156,4 @@
       <dsig:DigestValue>CE+0kJB0BrgxQ6w9de69KWpb4AbQTa27HovO7ejLnH8=</dsig:DigestValue>
     </hash>
   </file>
-</asmv1:assembly>
+<publisherIdentity name="CN=LCFC-DESK-I7\LCFC" issuerKeyHash="b3e6426c4b31e3acbe8dd1d411bdf33619d4af36" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mN7OA/P4wkDE7K3Tp2TgtkIWCdiHayL8muupQ2OUKLM=</DigestValue></Reference></SignedInfo><SignatureValue>p/Q6hgktYJvNR0aN6T1p24p02sydWEc8DYHUMmyUdHlRRWfM9o6YWCE1Rj8IfqKDUA8uBjY1dkRrWybttRydXJ7Yn8ZncgjsTZeZZNDMnJGFAc1zER8fkMgpjWRtxTIGCqCXeRRN68ekEFh0DO4HhBBLgBFMmYGVHekvibdAKXI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w8dJ7NFeqIE6PMX2TMWFfdSx0fKyQrx22tsbYree5/FNi0g0RBU9keDKLeenZmErL0OXmQSbiMFwESvyoWPgxZERt0GIwDf3S8sE4ntv8VFW49Jg3hdWaRs4+b0SPN9CIm6tKW9EAr+j01ZGEYpdLe68w/7dnR2BSD7FlGOIsKU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b328946343a9eb9afc226b87d8091642b6e064a7d3adecc440c2f8f303cede98" Description="" Url=""><as:assemblyIdentity name="SmartSpeedApp.exe" version="0.0.0.0" publicKeyToken="cd299c1c74d4a433" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LCFC-DESK-I7\LCFC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W6QiaT7FAPF2YFIUuk4tVNCTPzWoUL48Agye+q9Vv3M=</DigestValue></Reference></SignedInfo><SignatureValue>rPx9XXphArAadYMBSQKpNFiz5njMc8i9Ru4va72szpbBPuB+hvnzyD9lBiM8XDzAh1NEqkGVYYeFBshKprqks0peL7c9LTjGVrglJlrzl+dvyeWFMUKucbJyiwZoktIAd42KoMg0t8JCZF9uW0t74f0PErFPBirkdsZAom/Mmlc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w8dJ7NFeqIE6PMX2TMWFfdSx0fKyQrx22tsbYree5/FNi0g0RBU9keDKLeenZmErL0OXmQSbiMFwESvyoWPgxZERt0GIwDf3S8sE4ntv8VFW49Jg3hdWaRs4+b0SPN9CIm6tKW9EAr+j01ZGEYpdLe68w/7dnR2BSD7FlGOIsKU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQGKQozxyl9a9DhDTSrKoybDANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIATABDAEYAQwAtAEQARQBTAEsALQBJADcAXABMAEMARgBDMB4XDTIxMDMzMDIyMDQ0NFoXDTIyMDMzMTA0MDQ0NFowLTErMCkGA1UEAx4iAEwAQwBGAEMALQBEAEUAUwBLAC0ASQA3AFwATABDAEYAQzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAw8dJ7NFeqIE6PMX2TMWFfdSx0fKyQrx22tsbYree5/FNi0g0RBU9keDKLeenZmErL0OXmQSbiMFwESvyoWPgxZERt0GIwDf3S8sE4ntv8VFW49Jg3hdWaRs4+b0SPN9CIm6tKW9EAr+j01ZGEYpdLe68w/7dnR2BSD7FlGOIsKUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAqvlddIF+B8ForSNBGqcy8RAvcrEfdmvzbBUtAaItG0YQUaf8+2WGAqErF92KnD1txh28YLvTvjjG3AMJF30F7zSc9SWOlRuZhAXnhG1rYL4cl6bxSreRtDFlZAzICfnkR9bl+hCy6tPUty1E14it7KZZZLNxuGw86JblUxeruMA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
